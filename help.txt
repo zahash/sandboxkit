@@ -1,0 +1,14 @@
+data fetching runs only once when the component mounts
+
++page.svelte: building UI; client + server
++page.ts: data fetching; client + server
++page.server.ts: data fetching; server
+
+layouts can be shared across components
++layout.svelte: building UI; client + server
++layout.ts: data fetching; client + server
++layout.server.ts: data fetching; server
+
+server.ts: (REST) api endpoints; server
+error.svelte: fallback; server
+
